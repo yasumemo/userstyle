@@ -1,0 +1,13 @@
+/* ==UserStyle==
+@name        Evernote
+@namespace   github.com/yasumemo/userstyle
+@version     1.0.0
+@description Evernoteのフォントをなんとなく統一
+@author      yasumemo
+==/UserStyle== */
+
+@-moz-document domain("evernote.com") {
+  body, div {
+    font-family: sans-serif !important;
+  }
+}
