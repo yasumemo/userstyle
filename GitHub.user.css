@@ -1,0 +1,20 @@
+/* ==UserStyle==
+@name        GitHub
+@namespace   github.com/yasumemo/userstyle
+@version     1.0.0
+@description GitHubのフォントを大きく
+@author      yasumemo
+==/UserStyle== */
+
+@-moz-document domain("github.com") {
+  .blob-code,
+  .blob-num {
+    font-size: medium !important;
+  }
+  /* Edit Area */
+  .CodeMirror-line,
+  .CodeMirror-linenumber {
+    font-size: medium !important;
+  }
+}
+
