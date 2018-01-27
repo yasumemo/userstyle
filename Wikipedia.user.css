@@ -1,0 +1,22 @@
+/* ==UserStyle==
+@name        Wikipedia
+@namespace   github.com/yasumemo/userstyle
+@version     1.0.0
+@description Wikipediaのフォントを大きく
+@author      yasumemo
+==/UserStyle== */
+
+@-moz-document domain("wikipedia.org") {
+  #bodyContent {
+    font-size: medium !important;
+    line-height: 1.6 !important;
+  }
+  .referencetooltip {
+    font-size: 90% !important;
+  }
+  /*
+  #siteNotice {
+    display: none !important;
+  }
+  */
+}
