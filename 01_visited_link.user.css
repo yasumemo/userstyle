@@ -1,0 +1,19 @@
+/* ==UserStyle==
+@name        01 visited link
+@namespace   github.com/yasumemo/userstyle
+@version     1.0.0
+@description a:visitedを見やすく
+@author      yasumemo
+==/UserStyle== */
+
+@-moz-document domain("youtube.com"),
+               domain("wiki.fc2.com"),
+               domain("kickass.to"),
+               domain("acb.im"),
+               domain("senmanga.com"),
+               domain("sznpaste.net"),
+               domain("inoreader.com") {
+  a:visited {
+    color: #551A8B !important;
+  }
+}
