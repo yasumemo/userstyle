@@ -1,0 +1,17 @@
+/* ==UserStyle==
+@name        はてな
+@namespace   github.com/yasumemo/userstyle
+@version     1.0.0
+@description はてなダイアリーとはてなブログの本文を見やすい大きさに
+@author      yasumemo
+==/UserStyle== */
+
+@-moz-document domain("d.hatena.ne.jp"),
+               domain("hatenablog.com"),
+               domain("hatenablog.jp"){
+  div.section p,
+  div.entry-content p {
+    font-size: medium !important;
+    line-height: 1.6 !important;
+  }
+}
