@@ -1,0 +1,26 @@
+/* ==UserStyle==
+@name        Nyaa
+@namespace   github.com/yasumemo/userstyle
+@version     1.0.0
+@description Nyaa
+@author      yasumemo
+==/UserStyle== */
+
+@-moz-document domain("nyaa.si") {
+  a:visited {
+    color: #551A8B !important;
+  }
+  .torrent-list > tbody > tr > td:nth-of-type(2) {
+    white-space: normal !important;
+  }
+  .torrent-list > tbody > tr > td > a {
+    font-weight: bold;
+  }
+  .collapse {
+    display: block !important;
+  }
+  .container {
+    width: initial !important;
+  }
+}
+
