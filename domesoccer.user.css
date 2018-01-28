@@ -1,0 +1,16 @@
+/* ==UserStyle==
+@name        ドメサカブログ
+@namespace   github.com/yasumemo/userstyle
+@version     1.0.0
+@description 続きは最初から読んで、狭い幅に対策
+@author      yasumemo
+==/UserStyle== */
+
+@-moz-document domain("blog.domesoccer.jp") {
+  #main .article-first .section-article-constract {
+    height: auto !important;
+  }
+  .wrapper {
+    width: auto !important;
+  }
+}
