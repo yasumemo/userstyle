@@ -1,0 +1,13 @@
+/* ==UserStyle==
+@name        ニコニコ動画
+@namespace   github.com/yasumemo/userstyle
+@version     1.0.0
+@description ヘッダーを固定
+@author      yasumemo
+==/UserStyle== */
+
+@-moz-document domain("nicovideo.jp") {
+  #siteHeader {
+    position: static !important;
+  }
+}
