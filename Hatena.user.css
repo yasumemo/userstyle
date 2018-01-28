@@ -1,16 +1,18 @@
 /* ==UserStyle==
 @name        はてな
 @namespace   github.com/yasumemo/userstyle
-@version     2.0.0
-@description はてなダイアリーとはてなブログの本文を見やすい大きさに。はてなブックマークのヘッダーが邪魔。
+@version     2.1.0
+@description はてなダイアリー、はてなブログと増田の本文を見やすい大きさに。はてなブックマークのヘッダーが邪魔。
 @author      yasumemo
 ==/UserStyle== */
 
 @-moz-document domain("d.hatena.ne.jp"),
                domain("hatenablog.com"),
-               domain("hatenablog.jp"){
+               domain("hatenablog.jp"),
+               domain("anond.hatelabo.jp"){
   div.section p,
-  div.entry-content p {
+  div.entry-content p,
+  div.body {
     font-size: medium !important;
     line-height: 1.6 !important;
   }
