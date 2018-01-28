@@ -1,0 +1,14 @@
+/* ==UserStyle==
+@name        萌えた体験談コピペ保管庫
+@namespace   github.com/yasumemo/userstyle
+@version     1.0.0
+@description 文字を黒く
+@author      yasumemo
+==/UserStyle== */
+
+@-moz-document domain("moemoe.mydns.jp") {
+  td.block_content[width="800"] {
+    padding: 1em !important;
+    color: black !important;
+  }
+}
