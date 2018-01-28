@@ -11,6 +11,6 @@
     height: auto !important;
   }
   .wrapper {
-    width: auto !important;
+    width: initial !important;
   }
 }
