@@ -1,0 +1,14 @@
+/* ==UserStyle==
+@name        アンサイクロペディア
+@namespace   github.com/yasumemo/userstyle
+@version     1.0.0
+@description 本文フォントを大きく
+@author      yasumemo
+==/UserStyle== */
+
+@-moz-document domain("uncyclopedia.info"),
+               domain("ansaikuropedia.org") {
+  #bodyContent {
+    font-size: medium !important;
+  }
+}
