@@ -1,0 +1,16 @@
+/* ==UserStyle==
+@name        修羅場とか武勇伝とか
+@namespace   github.com/yasumemo/userstyle
+@version     1.0.0
+@description 本文フォントを大きく
+@author      yasumemo
+==/UserStyle== */
+
+@-moz-document domain("shuraba.seesaa.net") {
+  div.text {
+    font-size: medium !important;
+  }
+  h3.title {
+    font-size: medium !important;
+  }
+}
