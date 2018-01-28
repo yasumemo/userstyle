@@ -1,0 +1,17 @@
+/* ==UserStyle==
+@name        Soulreaperzone
+@namespace   github.com/yasumemo/userstyle
+@version     1.0.0
+@description 最初からリストオープン
+@author      yasumemo
+==/UserStyle== */
+
+@-moz-document domain("www.soulreaperzone.com") {
+  .su-spoiler.su-spoiler-closed > .su-spoiler-content{
+    height:auto !important;
+    opacity: 1 !important;
+  }
+  a:visited {
+    color: #551A8B !important;
+  }
+}
