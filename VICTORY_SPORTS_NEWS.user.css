@@ -1,0 +1,19 @@
+/* ==UserStyle==
+@name        VICTORY SPORTS NEWS
+@namespace   github.com/yasumemo/userstyle
+@version     1.0.0
+@description ナビゲーションバーみたいなのが邪魔
+@author      yasumemo
+==/UserStyle== */
+
+@-moz-document domain("victorysportsnews.com") {
+  .wrapper {
+    padding-top: 0 !important;
+  }
+  header {
+    position: static !important;
+  }
+  .grand-menu {
+    position: static !important;
+  }
+}
