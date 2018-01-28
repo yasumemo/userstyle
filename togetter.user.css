@@ -1,0 +1,13 @@
+/* ==UserStyle==
+@name        togetter
+@namespace   github.com/yasumemo/userstyle
+@version     1.0.0
+@description フォントサイズを大きく
+@author      yasumemo
+==/UserStyle== */
+
+@-moz-document domain("togetter.com") {
+  div.tweet_wrap {
+    font-size: medium !important;
+  }
+}
