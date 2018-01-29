@@ -10,4 +10,7 @@
   div.tweet_wrap {
     font-size: medium !important;
   }
+  #fixed_social_footer {
+    display: none !important;
+  }
 }
