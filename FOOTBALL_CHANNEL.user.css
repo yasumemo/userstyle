@@ -1,13 +1,19 @@
 /* ==UserStyle==
 @name        FOOTBALL CHANNEL
 @namespace   github.com/yasumemo/userstyle
-@version     1.0.0
-@description iframeはみ出し対策
+@version     1.1.0
+@description iframeはみ出し対策、本文フォント拡大、いらない広告削除
 @author      yasumemo
 ==/UserStyle== */
 
 @-moz-document domain("www.footballchannel.jp") {
   #facebook_count {
     overflow: hidden !important;
+  }
+  .entry_body {
+    font-size: medium !important;
+  }
+  #ad_facebook {
+    display: none !important;
   }
 }
