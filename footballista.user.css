@@ -1,0 +1,13 @@
+/* ==UserStyle==
+@name        footballista
+@namespace   github.com/yasumemo/userstyle
+@version     1.0.0
+@description javascriptが無効でも読めるように
+@author      yasumemo
+==/UserStyle== */
+
+@-moz-document domain("www.footballista.jp") {
+  #loading {
+    display: none !important;
+  }
+}
