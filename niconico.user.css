@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name        ニコニコ動画
 @namespace   github.com/yasumemo/userstyle
-@version     1.1.0
+@version     1.2.0
 @description ヘッダーを固定して上詰め
 @author      yasumemo
 ==/UserStyle== */
@@ -24,5 +24,38 @@
   }
   .TagContainer {
     margin-bottom: 0 !important;
+  }
+  /* タグエリアを小さく */
+  .TagContainer-area:first-child {
+    padding-right: 0 !important;
+  }
+  .TagContainer-editButton {
+    font-size: 10px !important;
+    width: auto !important;
+    height: initial !important;
+    line-height: 1.2 !important;
+    border-radius: 4px !important;
+    padding: 1px 3px !important;
+  }
+  .TagList {
+    min-height: initial !important;
+  }
+  .TagList .TagItem {
+    padding-left: 4px !important;
+    padding-right: 14px !important;
+    margin-right: 0 !important;
+    margin-bottom: 0 !important;
+  }
+  .TagItem {
+    height: initial !important;
+    line-height: 1.2 !important;
+    border-radius: 4px !important;
+  }
+  .TagItem-name {
+    font-size: 10px !important;
+  }
+  .TagItem-nicoDicLink {
+    width: 10px !important;
+    height: 10px !important;
   }
 }
