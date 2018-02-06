@@ -1,0 +1,14 @@
+/* ==UserStyle==
+@name        NumberWeb
+@namespace   github.com/yasumemo/userstyle
+@version     1.0.0
+@description 固定ヘッダーの解除
+@author      yasumemo
+==/UserStyle== */
+
+@-moz-document domain("number.bunshun.jp") {
+  .fixed-navi {
+    position: relative !important;
+  }
+}
+
