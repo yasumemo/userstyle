@@ -1,0 +1,13 @@
+/* ==UserStyle==
+@name        Sportsnavi
+@namespace   github.com/yasumemo/userstyle
+@version     1.0.0
+@description 全体のフォントを大きく
+@author      yasumemo
+==/UserStyle== */
+
+@-moz-document domain("sports.yahoo.co.jp") {
+  #main {
+    font-size: initial !important;
+  }
+}
