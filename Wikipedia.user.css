@@ -1,8 +1,8 @@
 /* ==UserStyle==
 @name        Wikipedia
 @namespace   github.com/yasumemo/userstyle
-@version     1.0.0
-@description Wikipediaのフォントを大きく
+@version     1.1.0
+@description Wikipediaのフォントを大きくして、広く
 @author      yasumemo
 ==/UserStyle== */
 
@@ -13,6 +13,16 @@
   }
   .referencetooltip {
     font-size: 90% !important;
+  }
+  .toccolours {
+    font-size: initial !important;
+  }
+  
+  #content {
+    margin-left: 0 !important;
+  }
+  #mw-panel {
+    position: relative !important;
   }
   /*
   #siteNotice {
