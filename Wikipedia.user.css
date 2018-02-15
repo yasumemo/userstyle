@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name        Wikipedia
 @namespace   github.com/yasumemo/userstyle
-@version     1.1.1
+@version     1.2.0
 @description Wikipediaのフォントを大きくして、広く
 @author      yasumemo
 ==/UserStyle== */
@@ -17,13 +17,26 @@
   .toccolours {
     font-size: initial !important;
   }
-  
+
+  /*サイドメニューを下におろして、ロゴを上に持ってくる*/
   #content {
     margin-left: 0 !important;
     padding: 1.5em 4em !important;
   }
   #mw-panel {
-    position: relative !important;
+    position: static !important;
+  }
+  #p-logo {
+    position: absolute !important;
+    top: 0 !important;
+    left: 0 !important;
+  }
+  #p-logo > a {
+    height: 100px !important;
+    background-position: 0% 20% !important;
+  }
+  #firstHeading {
+    padding-left: 1em !important;
   }
   /*
   #siteNotice {
