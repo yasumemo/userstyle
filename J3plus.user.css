@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name        サッカーコラム J3 Plus+
 @namespace   github.com/yasumemo/userstyle
-@version     1.0.0
+@version     1.1.0
 @description J3+をちょっと見やすく
 @author      yasumemo
 ==/UserStyle== */
@@ -13,6 +13,12 @@
     top: -4em !important;
   }
   center {
+    display: none !important;
+  }
+  #left > a {
+    display: none !important;
+  }
+  #left > font:nth-child(10) {
     display: none !important;
   }
 }
