@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name        Soulreaperzone
 @namespace   github.com/yasumemo/userstyle
-@version     1.0.0
+@version     1.1.0
 @description 最初からリストオープン
 @author      yasumemo
 ==/UserStyle== */
@@ -11,7 +11,10 @@
     height:auto !important;
     opacity: 1 !important;
   }
-  a:visited {
+  .td-main-content-wrap a {
+    color: #0033CC !important;
+  }
+  .td-main-content-wrap a:visited {
     color: #551A8B !important;
   }
 }
