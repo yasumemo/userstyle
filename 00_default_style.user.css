@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name        00 default style
 @namespace   github.com/yasumemo/userstyle
-@version     1.1.0
+@version     1.2.0
 @description すべてのサイトに適用
 @author      yasumemo
 ==/UserStyle== */
@@ -37,6 +37,14 @@ marquee {
 /* Webkit系でmonospaceが小さくなる問題対策 */
 tt, code, kbd, samp, pre, xmp, plaintext, listing {
     font-family: monospace, serif;
+}
+
+/* 選択禁止対策 */
+* {
+  user-select: auto !important;
+  -webkit-user-select: auto !important;
+  -moz-user-select: auto !important;
+  -ms-user-select: auto !important;
 }
 
 /*
