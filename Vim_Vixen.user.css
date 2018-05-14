@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name        Vim Vixen
 @namespace   github.com/yasumemo/userstyle
-@version     1.0.0
+@version     1.0.1
 @description FirefoxアドオンであるVim Vixenのヒントスタイルをいじる
 @author      yasumemo
 ==/UserStyle== */
@@ -13,7 +13,7 @@
   font-family: monospace !important;
   font-weight: bold !important;
   text-transform: uppercase !important;
-  font-size: medium !important;
+  font-size: 12pt !important;
   line-height: 1 !important;
   padding: 1px !important;
 }
