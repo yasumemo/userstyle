@@ -1,12 +1,14 @@
 /* ==UserStyle==
 @name        サッカーコラム J3 Plus+
 @namespace   github.com/yasumemo/userstyle
-@version     1.2.0
+@version     1.3.0
 @description J3+をちょっと見やすく
 @author      yasumemo
 ==/UserStyle== */
 
-@-moz-document domain("llabtooflatot.blog102.fc2.com") {
+@-moz-document domain("llabtooflatot.blog102.fc2.com"),
+               domain("llabtooflatot.blog.fc2.com")
+  {
   #all {
     width: initial !important;
     position: relative !important;
