@@ -1,13 +1,13 @@
 /* ==UserStyle==
 @name        ブクログ
 @namespace   github.com/yasumemo/userstyle
-@version     1.0.0
+@version     1.0.1
 @description デフォルト設定を解除
 @author      yasumemo
 ==/UserStyle== */
 
 @-moz-document domain("booklog.jp") {
-  input {
+  input, select {
     max-width: none !important;
   }
 }
