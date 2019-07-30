@@ -1,18 +1,23 @@
 /* ==UserStyle==
 @name        Anime Chiby
 @namespace   github.com/yasumemo/userstyle
-@version     1.1.0
+@version     1.2.0
 @description Anime Chiby
 @author      yasumemo
 ==/UserStyle== */
 
 @-moz-document domain("animechiby.com") {
+  /*
   .su-spoiler.su-spoiler-closed .su-spoiler-content {
     width: auto !important;
     height: auto !important;
     opacity: 1 !important;
   }
   div.su-spoiler-content {
+    display: block !important;
+  }
+  */
+  div.spoiler-body {
     display: block !important;
   }
   .search_box {
