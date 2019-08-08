@@ -1,13 +1,13 @@
 /* ==UserStyle==
 @name        Goal.com
 @namespace   github.com/yasumemo/userstyle
-@version     1.0.0
+@version     1.1.0
 @description 固定ヘッダーの解除
 @author      yasumemo
 ==/UserStyle== */
 
 @-moz-document domain("www.goal.com") {
-  .widget-header__wrapper {
+  .widget-header__wrapper, .widget-header {
     position: relative !important;
   }
 }
