@@ -1,0 +1,16 @@
+/* ==UserStyle==
+@name        JFA.jp
+@namespace   github.com/yasumemo/userstyle
+@version     1.0.0
+@description 固定ヘッダーの解除
+@author      yasumemo
+==/UserStyle== */
+
+@-moz-document domain("www.jfa.jp") {
+  #headerPC {
+    position: relative !important;
+  }
+  #headerPC--space {
+    display: none !important;
+  }
+}
