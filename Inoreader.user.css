@@ -1,0 +1,13 @@
+/* ==UserStyle==
+@name        Inoreader
+@namespace   github.com/yasumemo/userstyle
+@version     1.0.0
+@description 記事タイトルが隠れるのを回避
+@author      yasumemo
+==/UserStyle== */
+
+@-moz-document domain("inoreader.com"){
+  .article_title {
+    width: inherit !important;
+  }
+}
