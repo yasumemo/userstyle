@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name        ニコニコ動画
 @namespace   github.com/yasumemo/userstyle
-@version     1.2.0
+@version     1.3.0
 @description ヘッダーを固定して上詰め
 @author      yasumemo
 ==/UserStyle== */
@@ -57,5 +57,9 @@
   .TagItem-nicoDicLink {
     width: 10px !important;
     height: 10px !important;
+  }
+  /* タイトルを折り返さない */
+  .VideoTitle {
+    white-space: nowrap !important;
   }
 }
