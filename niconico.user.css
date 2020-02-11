@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name        ニコニコ動画
 @namespace   github.com/yasumemo/userstyle
-@version     1.3.0
+@version     1.4.0
 @description ヘッダーを固定して上詰め
 @author      yasumemo
 ==/UserStyle== */
@@ -20,6 +20,9 @@
     padding: 0 !important;
   }
   .HeaderContainer-row {
+    margin-bottom: 0 !important;
+  }
+  .VideoDescriptionContainer {
     margin-bottom: 0 !important;
   }
   .TagContainer {
