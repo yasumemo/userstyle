@@ -1,8 +1,8 @@
 /* ==UserStyle==
 @name        Soulreaperzone
 @namespace   github.com/yasumemo/userstyle
-@version     1.1.0
-@description 最初からリストオープン
+@version     1.2.0
+@description 最初からリストオープンして、ブロックをブロック
 @author      yasumemo
 ==/UserStyle== */
 
@@ -16,5 +16,12 @@
   }
   .td-main-content-wrap a:visited {
     color: #551A8B !important;
+  }
+  /*ブロックをブロック*/
+  #ai-adb-message {
+    z-index: -999 !important;
+  }
+  #ai-adb-overlay {
+    z-index: -999 !important;
   }
 }
