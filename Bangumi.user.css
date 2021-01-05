@@ -1,0 +1,14 @@
+/* ==UserStyle==
+@name        今日の番組表
+@namespace   github.com/yasumemo/userstyle
+@version     1.0.0
+@description defaultの設定を無効にする
+@author      yasumemo
+==/UserStyle== */
+
+@-moz-document domain("bangumi.org"){
+  li p {
+    line-height: 1 !important;
+  }
+}
+
