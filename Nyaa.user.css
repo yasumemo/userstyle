@@ -1,12 +1,15 @@
 /* ==UserStyle==
 @name        Nyaa
 @namespace   github.com/yasumemo/userstyle
-@version     1.0.0
+@version     1.1.0
 @description Nyaa
 @author      yasumemo
 ==/UserStyle== */
 
 @-moz-document domain("nyaa.si") {
+  body {
+    font-size: medium !important;
+  }
   a:visited {
     color: #551A8B !important;
   }
