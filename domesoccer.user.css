@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name        ドメサカブログ
 @namespace   github.com/yasumemo/userstyle
-@version     1.1.0
+@version     1.2.0
 @description 続きは最初から読んで、狭い幅に対策
 @author      yasumemo
 ==/UserStyle== */
@@ -10,12 +10,14 @@
   body {
     font-size: medium !important;
   }
+  /*
   #main .article-first .section-article-constract {
     height: auto !important;
   }
   .wrapper {
     width: initial !important;
   }
+  */
   .comment-metadata {
     font-size: x-small !important;
   }
