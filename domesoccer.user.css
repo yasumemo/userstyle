@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name        ドメサカブログ
 @namespace   github.com/yasumemo/userstyle
-@version     1.3.0
+@version     1.4.0
 @description 続きは最初から読んで、狭い幅に対策
 @author      yasumemo
 ==/UserStyle== */
@@ -18,6 +18,15 @@
     width: initial !important;
   }
   */
+  blockquote.twitter-tweet {
+    font-size: medium !important;
+  }
+  .text-strong3 {
+    font-size: large !important;
+  }
+  .text-strong4 {
+    font-size: medium !important;
+  }
   .comment-metadata {
     font-size: x-small !important;
   }
