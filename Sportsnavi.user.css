@@ -1,13 +1,13 @@
 /* ==UserStyle==
 @name        Sportsnavi
 @namespace   github.com/yasumemo/userstyle
-@version     1.6.0
+@version     1.7.0
 @description 全体のフォントを大きくして、いらん警告を消す
 @author      yasumemo
 ==/UserStyle== */
 
 @-moz-document domain("sports.yahoo.co.jp"), domain("soccer.yahoo.co.jp"), domain("baseball.yahoo.co.jp") {
-  #wrapper, #contents, .sc-wrapper, .sc-content {
+  #wrapper, #contents, .sc-wrapper, .sc-content, #wrapper_body {
     width: 1150px !important;
   }
   #main, .sc-main {
