@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name        Sportsnavi
 @namespace   github.com/yasumemo/userstyle
-@version     1.9.0
+@version     2.0.0
 @description 全体のフォントを大きくして、いらん警告を消す
 @author      yasumemo
 ==/UserStyle== */
@@ -37,6 +37,15 @@
   .sn-modTimeLine .sn-tab--sub .sn-tab__item button {
     font-size: small !important;
   }
+  /* Jリーグ */
+  .io-modPickup .io-list .io-list__itemTitle {
+    font-size: small !important;
+    line-height: 1.4 !important;
+  }
+  .sc-tableGame__head, .sc-tableGame__data, .sc-timeLine__itemTitle {
+    font-size: small !important;
+  }
+  
   /*
   #main {
     font-size: initial !important;
