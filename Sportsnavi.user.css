@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name        Sportsnavi
 @namespace   github.com/yasumemo/userstyle
-@version     1.8.0
+@version     1.9.0
 @description 全体のフォントを大きくして、いらん警告を消す
 @author      yasumemo
 ==/UserStyle== */
@@ -18,6 +18,24 @@
   }
   body {
     font-size: initial !important;
+  }
+  .sn-topPickup__item--listArticle .sn-list__itemTitle {
+    font-size: medium !important;
+  }
+  .sn-topPickup__item--firstArticle .sn-topPickup__itemTitle {
+    font-size: small !important;
+  }
+  .sn-topPickupGame__itemTitle {
+    font-size: small !important;
+  }
+  .sn-list__itemTitle {
+    font-size: medium !important;
+  }
+  .sn-modTimeLine .sn-tab--sub .sn-tab__item {
+    max-width: 150px !important;
+  }
+  .sn-modTimeLine .sn-tab--sub .sn-tab__item button {
+    font-size: small !important;
   }
   /*
   #main {
