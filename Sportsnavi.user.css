@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name        Sportsnavi
 @namespace   github.com/yasumemo/userstyle
-@version     1.7.0
+@version     1.8.0
 @description 全体のフォントを大きくして、いらん警告を消す
 @author      yasumemo
 ==/UserStyle== */
@@ -16,6 +16,10 @@
   .sn-topPickup__item--listArticle {
     width: 580px !important;
   }
+  body {
+    font-size: initial !important;
+  }
+  /*
   #main {
     font-size: initial !important;
   }
@@ -28,4 +32,5 @@
   #modSoccerStanding td:first-child {
     font-size: smaller !important;
   }
+  */
 }
