@@ -12,7 +12,7 @@
   #wrapper, #contents, .sc-wrapper, .sc-content, #wrapper_body {
     width: 1150px !important;
   }
-  #main, .sc-main {
+  #main, .sc-main, .sn-modTimeLine .sn-tab.sn-style--fixedTop {
     width: 820px !important;
   }
   .sn-topPickup__item--listArticle {
