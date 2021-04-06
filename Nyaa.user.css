@@ -10,6 +10,9 @@
   body {
     font-size: medium !important;
   }
+  pre {
+    font-size: small !important;
+  }
   a:visited {
     color: #551A8B !important;
   }
