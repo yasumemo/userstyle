@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name        YouTube
 @namespace   github.com/yasumemo/userstyle
-@version     1.1.0
+@version     1.2.0
 @description 閲覧済み動画をわかりやすく
 @author      yasumemo
 ==/UserStyle== */
@@ -18,13 +18,16 @@
     background-color: #FAFAFA !important;
   }
   a.yt-simple-endpoint.ytd-compact-video-renderer {
-      background-color: rgb(250,250,250) !important;
+    background-color: #FAFAFA !important;
   }
   a:visited.yt-simple-endpoint.ytd-compact-video-renderer {
-      color: #551A8B !important;
-      background-color: rgb(255,255,255) !important;
+    color: #551A8B !important;
+    background-color: #FFFFFF !important;
   }
   h3.ytd-compact-video-renderer {
-      color: inherit !important;
+    color: inherit !important;
+  }
+  #video-title.ytd-rich-grid-media {
+    color: inherit !important;
   }
 }
