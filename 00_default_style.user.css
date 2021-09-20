@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name        00 default style
 @namespace   github.com/yasumemo/userstyle
-@version     1.2.0
+@version     1.3.0
 @description すべてのサイトに適用
 @author      yasumemo
 ==/UserStyle== */
@@ -64,9 +64,14 @@ tt, code, kbd, samp, pre, xmp, plaintext, listing {
 }
 @font-face {
   font-family: "ＭＳ ゴシック";
-  src: local("NasuM"), local("monospace");
+  src: local("Cica"), local("NasuM"), local("monospace");
 }
 @font-face {
   font-family: "MS Gothic";
-  src: local("NasuM"), local("monospace");
+  src: local("Cica"), local("NasuM"), local("monospace");
 }
+@font-face {
+  font-family: system-ui;
+  src: local("Nasu"), local("MaruGoAA-SR");
+}
+
