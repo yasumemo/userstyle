@@ -1,0 +1,14 @@
+/* ==UserStyle==
+@name        Annict
+@namespace   github.com/yasumemo/userstyle
+@version     1.0.0
+@description Annict
+@author      yasumemo
+==/UserStyle== */
+
+@-moz-document domain("annict.com") {
+  body {
+    font-family: sans-serif !important;
+  }
+}
+
