@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name        Inoreader
 @namespace   github.com/yasumemo/userstyle
-@version     1.1.0
+@version     1.2.0
 @description 記事を幅広く
 @author      yasumemo
 ==/UserStyle== */
@@ -15,5 +15,8 @@
   }
   #reader_pane.reader_pane_sinner {
     padding-right: 20px !important;
+  }
+  .parent_div {
+    line-height: normal !important;
   }
 }
