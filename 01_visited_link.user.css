@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name        01 visited link
 @namespace   github.com/yasumemo/userstyle
-@version     1.4.0
+@version     1.5.0
 @description a:visitedを見やすく
 @author      yasumemo
 ==/UserStyle== */
@@ -13,7 +13,8 @@
                domain("sznpaste.net"),
                domain("inoreader.com"),
                domain("sznlink.xyz"),
-               domain("13dl.net") {
+               domain("13dl.net"),
+               domain("13dl.to") {
   a:visited, a:visited #video-title {
     color: #551A8B !important;
   }
