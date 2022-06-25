@@ -1,17 +1,17 @@
 /* ==UserStyle==
 @name        今日の番組表
 @namespace   github.com/yasumemo/userstyle
-@version     1.1.0
+@version     1.2.0
 @description defaultの設定を無効にする
 @author      yasumemo
 ==/UserStyle== */
 
 @-moz-document domain("bangumi.org"){
-  li p {
+  section.si_epg div#contents div#program_area ul li div.program_text p.program_detail {
     line-height: 1 !important;
   }
-  section.si_epg ul.pc_main_menu, section.si_epg ul.pc_jump_menu {
-    padding: 0px 0px 6px 20px !important;
+  section.si_epg div.pc_header{
+    padding: 0px 0px 16px 20px !important;
   }
 }
 
