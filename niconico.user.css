@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name        ニコニコ動画
 @namespace   github.com/yasumemo/userstyle
-@version     1.4.0
+@version     1.5.0
 @description ヘッダーを固定して上詰め
 @author      yasumemo
 ==/UserStyle== */
@@ -64,5 +64,9 @@
   /* タイトルを折り返さない */
   .VideoTitle {
     white-space: nowrap !important;
+  }
+  /* 訪問済みリンクをわかりやすく */
+  .NicorepoItem-content:visited .NicorepoItem-contentDetailTitle {
+    color: #551A8B !important;
   }
 }
