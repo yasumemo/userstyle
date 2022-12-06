@@ -66,8 +66,10 @@
     white-space: nowrap !important;
   }
   /* 訪問済みリンクをわかりやすく */
+  .NicorepoItem-content:visited {
+    background-color: #F0F0F0 !important;
+  }
   .NicorepoItem-content:visited .NicorepoItem-contentDetailTitle {
     color: #551A8B !important;
-    background-color: #F0F0F0 !important;
   }
 }
