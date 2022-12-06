@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name        ニコニコ動画
 @namespace   github.com/yasumemo/userstyle
-@version     2.0.0
+@version     2.1.0
 @description ヘッダーを固定して上詰め
 @author      yasumemo
 ==/UserStyle== */
@@ -66,10 +66,11 @@
     white-space: nowrap !important;
   }
   /* 訪問済みリンクをわかりやすく */
-  .NicorepoItem-content:visited {
-    background-color: #F0F0F0 !important;
+  .NicorepoItem-content .NicorepoItem-contentDetailTitle {
+    background-color: #FFFFFF !important;
   }
   .NicorepoItem-content:visited .NicorepoItem-contentDetailTitle {
     color: #551A8B !important;
+    background-color: #F0F0F0 !important;
   }
 }
