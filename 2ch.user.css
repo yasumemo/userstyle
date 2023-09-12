@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name        2ちゃんねる
 @namespace   github.com/yasumemo/userstyle
-@version     1.0.0
+@version     1.1.0
 @description 2?ちゃんねる
 @author      yasumemo
 ==/UserStyle== */
@@ -11,11 +11,16 @@
                 domain("unkar.org"),
                 domain("open2ch.net"),
                 domain("2ch.sc") {
+  /*
   * {
     font-family: MaruGoAA-SR !important;
     font-size: 16px !important;
     line-height: 1.2 !important;
     background-image: none !important;
+  }
+  */
+  .AA {
+    font-size: inherit !important;
   }
 }
 
