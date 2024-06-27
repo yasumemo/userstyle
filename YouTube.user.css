@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name        YouTube
 @namespace   github.com/yasumemo/userstyle
-@version     1.2.0
+@version     1.3.0
 @description 閲覧済み動画をわかりやすく
 @author      yasumemo
 ==/UserStyle== */
@@ -29,5 +29,11 @@
   }
   #video-title.ytd-rich-grid-media {
     color: inherit !important;
+  }
+
+  a[href^="/channel"]:visited,
+  a[href^="/watch"]:visited #video-title,
+  a#video-title:visited  {
+    color: #551A8B !important;
   }
 }
